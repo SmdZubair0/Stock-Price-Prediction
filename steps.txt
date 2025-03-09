@@ -1,0 +1,11 @@
+Stocks data
+- Use Yahoo Finance to download stocks data (yfinance)
+- reset the data in index to get dates
+- perform basic analysis
+- check for the splits the occured during the course of time and calculated adjusted close (refer the markdown in the notebook)
+- Calculate moving average (weighted)
+- Calculate relative strength index (RSI) refer the markdown in the notebook
+- Calculate MACD as shown in the markdown in the notebook
+- Calculate Bollinger band as shown in the markdown in the notebook
+- split the date column as required
+- calculate monthly seasonlity and weekly seasonlity using fourier_sin and fourier_cos
