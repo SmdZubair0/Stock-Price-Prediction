@@ -13,3 +13,4 @@ Stocks data
 
 - Perform EDA to select relevant features
 - make plots for each feature to see the changes along with date
+- find correlation with each features and then select the relevant features for the model prediction
