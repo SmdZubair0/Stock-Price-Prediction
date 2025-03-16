@@ -9,3 +9,7 @@ Stocks data
 - Calculate Bollinger band as shown in the markdown in the notebook
 - split the date column as required
 - calculate monthly seasonlity and weekly seasonlity using fourier_sin and fourier_cos
+
+
+- Perform EDA to select relevant features
+- make plots for each feature to see the changes along with date

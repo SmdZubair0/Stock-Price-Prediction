@@ -16,3 +16,6 @@ Rarely changing parameters
         span = 9
 
     SMA_20
+
+# use_cols for visualization
+use_cols = 
