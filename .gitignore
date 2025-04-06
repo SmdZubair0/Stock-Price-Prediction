@@ -1,0 +1,8 @@
+newVenv/
+__pycache__/
+*.log
+*.csv
+*.h5
+*.pkl
+models/
+data/

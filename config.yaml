@@ -1,0 +1,15 @@
+data:
+  stock_api: "yfinance"
+  news_api_key: "#"
+  start_date: "1980-12-12"
+  end_date: "2025-04-02"
+
+model:
+  lstm_units: [50, 50]   # LSTM layers with 50 units each
+  return_sequences: [True, False]  # Matches the layers
+  dense_units: [25, 1]   # Dense layers with 25 and 1 neuron
+  batch_size: 32
+  epochs: 20
+  optimizer: adam
+  learning_rate: 0.001
+  input_shape: [5, 9]
