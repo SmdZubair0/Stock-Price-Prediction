@@ -1,0 +1,21 @@
+stages:
+
+  make_dataset:
+    cmd: python ./src/data_collection/make_dataset.py AAPL
+    outs:
+      - ./data/raw/stocks_1.csv
+      - ./data/raw/news_1.csv
+
+  preprocessing:
+    cmd: python ./src/features/preprocessing.py AAPL
+    deps:
+      - ./data/raw/stocks_1.csv
+      - ./data/raw/news_1.csv
+    outs:
+      - ./data/interim/stocks_2.csv
+      - ./data/interim/news_2.csv
+
+  prediction:
+    cmd: python ./src/model/prediction.py
+
+  
